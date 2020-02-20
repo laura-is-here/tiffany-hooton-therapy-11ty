@@ -12,6 +12,7 @@
     <div class="content leading-relaxed">
       {{ content | safe }}
     </div>
+    {% include "footer.njk "%}
     {% set js %}
       {% include "js/core.js" %}
       {% include "js/hello.js" %}
@@ -19,6 +20,3 @@
     <script>{{ js | jsmin | safe }}</script>
   </body>
 </html>
-
-
-
