@@ -35,6 +35,7 @@ summary: |-
 menu:
   main:
     weight: 4
+layout: single
 ---
 
 _\*For ease of reading, the term "couple" will be used to denote "people in an intimate relationship," and is not limited to two people._

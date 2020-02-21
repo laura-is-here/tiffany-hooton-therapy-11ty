@@ -4,18 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,800&display=swap" rel="stylesheet">
     <title>{{ title }}</title>
     {% include "social.njk" %}
   </head>
-  <body class="container mx-auto mb-12 lg:max-w-4xl text-gray-700">
+  <body class="font-body mb-12 text-gray-700">
     {% include "header.njk" %}
-    <div class="content leading-relaxed">
+    <div class="container mx-auto lg:max-w-4xl content leading-relaxed">
       {{ content | safe }}
     </div>
     {% set js %}
-      {% include "js/core.js" %}
-      {% include "js/hello.js" %}
+    {% include "js/core.js" %}
+    {% include "js/hello.js" %}
     {% endset %}
-    <script>{{ js | jsmin | safe }}</script>
+    <script>
+      {{ js | jsmin | safe }}
+    </script>
   </body>
 </html>

@@ -1,6 +1,6 @@
     <li class="mt-6">
       <h4 class="text-lg font-bold"><a href="{{ item.url }}">{{ item.data.title }}</a></h4>
       <div class="">
-      {{ item.data.teaser | safe }}
+      {{ item.data.teaser | section | safe }}
       </div>
     </li>

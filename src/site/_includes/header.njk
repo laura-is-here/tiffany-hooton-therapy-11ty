@@ -1,21 +1,16 @@
 
-<header class="bg-teal-500 flex justify-between px-4 py-2 mb-10">
-  {% if page.url == "/" %}
-  <h1 class=" text-white font-medium text-2xl">O RLY?</h1>
-  {% else %}
-  <h1 class=" text-white font-medium text-2xl"><a href="/">ElevenTail <small class="text-sm">a site scaffold</small></a></h1>
-  {% endif %}
+<header class="bg-dark flex justify-between px-4 py-2 mb-10">
+  <p class="font-medium text-2xl leading-tight"><a href="/">{{ title }}<br /><small class="text-sm">with Tiffany Hooton</small></a></p>
   <nav>
     {%
       set linkList = [
-        { "url": "/about" , "text": "About"},
-        { "url": "/blog" , "text": "Blog"},
-        { "url": pkg.repository.url , "text": "GitHub"}
+        { "url": "/#about" , "text": "About"},
+        { "url": "/transgender-therapy-long-beach/" , "text": "Gender Therapy"},
+        { "url": "/therapy-for-trans-partners-long-beach/" , "text": "Therapy for Trans Partners"},
+        { "url": "/couples-therapy-long-beach/" , "text": "Couples Therapy"},
+        { "url": "/#contact" , "text": "Contact"}
       ]
     %}
     {% include "navigation-links.njk" %}
   </nav>
 </header>
-
-
-

@@ -1,5 +1,5 @@
 /* purgecss start ignore */
-@tailwind  base;
+@tailwind base;
 /* purgecss end ignore */
 
 /*
@@ -9,8 +9,8 @@ section {
   @apply pb-10;
   @apply px-4;
 }
-p+p {
-  @apply mt-4;
+p {
+  @apply mb-4;
 }
 
 /*
@@ -18,8 +18,8 @@ p+p {
 */
 h1.heading {
   @apply text-3xl;
-  @apply text-gray-900;
-  @apply mb-4;
+  @apply text-gray-700;
+  @apply mb-8;
   @apply font-semibold;
 }
 @screen md {
@@ -33,12 +33,12 @@ h1.heading {
 */
 a {
   @apply border-b-2;
-  @apply border-teal-400;
+  @apply border-pink-400;
 }
 a:hover,
 a:focus {
- @apply border-b-2;
- @apply border-teal-200;
+  @apply border-b-2;
+  @apply border-pink-200;
 }
 a.naked-link:link,
 a.naked-link:visited {
@@ -56,6 +56,28 @@ a.naked-link:visited {
 .content ol li {
   @apply list-decimal;
   @apply pl-2;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  @apply mb-4;
+  @apply font-semibold;
+}
+
+.markdown h2 {
+  @apply text-2xl;
+}
+
+.markdown h3 {
+  @apply text-xl;
+}
+
+.markdown h4 {
+  @apply text-lg;
 }
 
 code {
@@ -83,7 +105,6 @@ code {
   @apply border-b-0;
 }
 
-
 .filter-bw-800 {
   filter: grayscale(0.8);
 }
@@ -96,7 +117,7 @@ code {
 }
 
 /* purgecss start ignore */
-@tailwind  components;
+@tailwind components;
 /* purgecss end ignore */
 
 @tailwind utilities;

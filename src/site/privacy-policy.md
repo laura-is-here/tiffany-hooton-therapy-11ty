@@ -1,5 +1,6 @@
 ---
 title: "Privacy Policy"
+layout: default
 ---
 
 At Tiffany Hooton Therapy, accessible from [https://tiffanyhootonmft.com,](https://tiffanyhootonmft.com, "https://tiffanyhootonmft.com,") one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Tiffany Hooton Therapy and how we use it.

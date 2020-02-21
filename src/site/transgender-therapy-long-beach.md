@@ -42,6 +42,7 @@ summary: |-
 menu:
   main:
     weight: 2
+layout: single
 ---
 
 ## Questioning your Gender Identity

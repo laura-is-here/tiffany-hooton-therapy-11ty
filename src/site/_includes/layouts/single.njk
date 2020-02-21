@@ -4,16 +4,11 @@ pageClass: page
 templateEngineOverride: njk, md
 ---
 <section>
-  <h1 class="heading">{{ title }}</h1>
-  <div class="mb-4 text-lg font-medium">
+  <h1 class="heading text-right p-4 bg-pink-200">{{ title }}</h1>
+  <div class="mb-4 text-lg font-medium markdown">
     {{ content | section | safe }}
   </div>
-  <div>
+  <div class="markdown">
     {{ content | section('remainder') | safe }}
-  </div>
-  <div class="mt-12 pt-4 text-gray-600 text-sm border-t border-gray-300">
-    <p>
-      This page is part of the <a href="/blog">blog</a> section.
-    </p>
   </div>
 </section>

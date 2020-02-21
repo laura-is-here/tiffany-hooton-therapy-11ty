@@ -1,8 +1,8 @@
 
-<ul class="flex items-row">
+<ul class="flex text-right flex-col md:flex-row md:text-center">
   {% for link in linkList %}
-    <li class="pr-1">
-      <a href="{{ link.url }}" class="nav-tab">
+    <li class="pb-3 md:pr-3">
+      <a href="{{ link.url }}" class="hover:text-pink-900">
         {{ link.text }}
       </a>
     </li>
