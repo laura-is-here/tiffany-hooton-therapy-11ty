@@ -4,7 +4,7 @@ layout: default
 ---
 
 {% for item in collections.home %}
-<section class="flex text-lg lg:text-xl mb-8">
+<section class="flex flex-col md:flex-row text-lg lg:text-xl mb-8">
   <div class="w-1/2">
     <p class="text-4xl">{{ item.data.intro.title }}</p>
     {{ item.data.intro.body | safe }}
