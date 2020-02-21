@@ -45,6 +45,17 @@ a.naked-link:visited {
   @apply border-0;
 }
 
+.markdown ul,
+.markdown ol {
+  @apply my-6;
+}
+.markdown li {
+  @apply ml-6;
+}
+.markdown ol li {
+  @apply pl-2;
+}
+
 .markdown h1,
 .markdown h2,
 .markdown h3,

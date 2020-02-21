@@ -6,7 +6,7 @@ layout: default
 {% for item in collections.home %}
 <section class="flex flex-col md:flex-row text-lg lg:text-xl mb-8">
   <div class="md:w-1/2">
-    <p class="text-4xl">{{ item.data.intro.title }}</p>
+    <p class="text-4xl leading-tight">{{ item.data.intro.title }}</p>
     {{ item.data.intro.body | safe }}
     <a class="inline-block bg-pink-200 border-2 border-pink-200 border-solid rounded-lg hover:bg-pink-100 hover:border-pink-200 px-3 py-2 my-3 text-sm font-bold cursor-pointer" href="/#contact">Contact Me For A Free Consultation</a>
   </div>

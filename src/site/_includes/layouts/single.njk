@@ -3,12 +3,16 @@ layout: default
 pageClass: page
 templateEngineOverride: njk, md
 ---
+<section class="flex flex-col md:flex-row text-lg lg:text-xl mb-8">
+  <div class="md:w-3/4">
+    <p class="text-4xl leading-tight">{{ intro.title }}</p>
+    {{ content | section | safe}}
+    <a class="inline-block bg-pink-200 border-2 border-pink-200 border-solid rounded-lg hover:bg-pink-100 hover:border-pink-200 px-3 py-2 my-3 text-sm font-bold cursor-pointer" href="/#contact">Contact Me For A Free Consultation</a>
+  </div>
+</section>
 <section>
   <h1 class="heading text-right p-4 bg-pink-200">{{ title }}</h1>
   <div class="mb-4 text-lg font-medium markdown">
-    {{ content | section | safe }}
-  </div>
-  <div class="markdown">
     {{ content | section('remainder') | safe }}
   </div>
 </section>

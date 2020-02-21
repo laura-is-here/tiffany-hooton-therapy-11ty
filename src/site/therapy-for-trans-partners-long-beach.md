@@ -2,16 +2,7 @@
 title: Therapy for Trans Partners
 intro:
   title: Partner Perspectives
-  body: |-
-    **Partner Perspectives is an open therapy group for partners of transgender people.**
-
-    When someone's partner begins their transition process, it can often feel isolating, confusing, and distressing. This group provides a space for these partners of trans individuals to to normalize their experience and receive support.
-
-    **Partner Perspectives** is a process group where partners of trans people can discuss their feelings, collect their thoughts, and connect with peers in a safe, confidential space.
-
-    _Starts January 2020. More information coming soon._
-
-    Please contact me for more information.
+  body: |
   toggle: true
 contact: true
 services:
@@ -48,6 +39,18 @@ menu:
     weight: 3
 layout: single
 ---
+
+**Partner Perspectives is an open therapy group for partners of transgender people.**
+
+When someone's partner begins their transition process, it can often feel isolating, confusing, and distressing. This group provides a space for these partners of trans individuals to to normalize their experience and receive support.
+
+**Partner Perspectives** is a process group where partners of trans people can discuss their feelings, collect their thoughts, and connect with peers in a safe, confidential space.
+
+_Starts January 2020. More information coming soon._
+
+Please contact me for more information.
+
+<!--more-->
 
 ## Why go to therapy when your partner is trans?
 
