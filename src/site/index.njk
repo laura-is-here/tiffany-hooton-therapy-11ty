@@ -4,7 +4,7 @@ layout: default
 ---
 
 {% for item in collections.home %}
-<div class="flex text-lg lg:text-xl mb-8">
+<section class="flex text-lg lg:text-xl mb-8">
   <div class="w-1/2">
     <p class="text-4xl">{{ item.data.intro.title }}</p>
     {{ item.data.intro.body | safe }}
@@ -13,7 +13,7 @@ layout: default
   <figure class="w-1/2 p-5">
     <img src="/images/tiff-image.jpg" class="object-cover " />
   </figure>
-</div>
+</section>
 <div class="text-md md:text-lg lg:text-xl p-8 mb-8 bg-pink-200 markdown">
   {{ item.templateContent | safe }}
 </div>
