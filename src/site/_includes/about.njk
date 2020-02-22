@@ -1,0 +1,15 @@
+<section
+  id="about-me"
+  class=""
+>
+  <div
+    class=""
+  >
+    <h2 class="text-center text-4xl ">
+      About Me
+    </h2>
+    <div class="markdown text-xl">
+    {% for item in collections.about %} {{ item.templateContent | safe }} {% endfor %}
+  </div>
+  </div>
+</section>

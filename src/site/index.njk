@@ -4,18 +4,19 @@ layout: default
 ---
 
 {% for item in collections.home %}
-<section class="flex flex-col md:flex-row text-lg lg:text-xl mb-8">
+<section class="flex flex-col items-center md:flex-row text-lg lg:text-xl mb-8">
   <div class="md:w-1/2">
     <p class="text-4xl leading-tight">{{ item.data.intro.title }}</p>
-    {{ item.data.intro.body | safe }}
+    {{ item.templateContent | section | safe }}
     <a class="inline-block bg-pink-200 border-2 border-pink-200 border-solid rounded-lg hover:bg-pink-100 hover:border-pink-200 px-3 py-2 my-3 text-sm font-bold cursor-pointer" href="/#contact">Contact Me For A Free Consultation</a>
   </div>
-  <figure class="md:w-1/2 md:pl-6">
-    <img src="/images/tiff-image.jpg" class="object-cover  rounded-lg shadow-lg" />
+  <figure class="md:w-1/2 md:pl-2">
+    <img src="/images/tiff-image.jpg" class="mx-auto h-64 w-64 object-cover object-top rounded-full shadow-lg" />
   </figure>
 </section>
-<div class="text-md md:text-lg lg:text-xl p-8 mb-8 bg-pink-200 markdown">
-  {{ item.templateContent | safe }}
+<div class=" p-8 mb-8 bg-pink-200 markdown">
+  {{ item.templateContent | section('remainder') | safe }}
 </div>
 {% endfor %}
+{% include "about.njk" %}
 {% include "contact.njk" %}

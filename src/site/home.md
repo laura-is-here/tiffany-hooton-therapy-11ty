@@ -27,9 +27,6 @@ cardlist:
 intro:
   title: Welcome!
   body: |
-    I am a Marriage and Family Therapist Associate offering therapy in the greater Long Beach area.
-
-    If you are looking for a therapist who is queer, committed to serving the LGBT community, trans-affirming, and sex worker-allied, feel welcome to contact me for a free consultation and we can begin the path of healing together.
   toggle: true
 about: true
 contact: true
@@ -41,6 +38,12 @@ menu:
     weight: 1
 tags: home
 ---
+
+I am a Marriage and Family Therapist Associate offering therapy in the greater Long Beach area.
+
+If you are looking for a therapist who is queer, committed to serving the LGBT community, trans-affirming, and sex worker-allied, feel welcome to contact me for a free consultation and we can begin the path of healing together.
+
+<!--more-->
 
 ## What To Expect from Therapy
 

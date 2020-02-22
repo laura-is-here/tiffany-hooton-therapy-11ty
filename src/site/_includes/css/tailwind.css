@@ -154,7 +154,6 @@ code {
 [hidden] {
   display: none;
 }
-
 /* purgecss start ignore */
 @tailwind components;
 /* purgecss end ignore */

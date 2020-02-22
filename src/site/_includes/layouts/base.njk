@@ -9,12 +9,12 @@
     <title>{{ title }}</title>
     {% include "social.njk" %}
   </head>
-  <body class="font-body mb-12 text-gray-700">
+  <body class="font-body text-gray-700 text-md md:text-lg lg:text-xl">
     {% include "header.njk" %}
     <div class="container mx-auto lg:max-w-4xl content leading-relaxed">
       {{ content | safe }}
-      {% include "footer.njk" %}
     </div>
+      {% include "footer.njk" %}
     {% set js %}
     {% include "js/core.js" %}
     {% include "js/hello.js" %}
