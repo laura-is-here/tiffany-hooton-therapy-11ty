@@ -115,6 +115,39 @@ code {
   margin-bottom: -1rem;
 }
 
+.slideIn {
+  animation-name: slideIn;
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(0.55, 1.82, 0.54, 0.9);
+}
+
+.slideOut {
+  animation-name: slideOut;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.55, 0.9, 0.54, 1.82);
+}
+
+@keyframes slideIn {
+  0% {
+    right: 1000px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: 1000px;
+  }
+}
+[hidden] {
+  display: none;
+}
+
 /* purgecss start ignore */
 @tailwind components;
 /* purgecss end ignore */

@@ -18,9 +18,11 @@
     {% set js %}
     {% include "js/core.js" %}
     {% include "js/hello.js" %}
+    {% include "js/menuToggle.js" %}
     {% endset %}
     <script>
       {{ js | jsmin | safe }}
     </script>
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
   </body>
 </html>

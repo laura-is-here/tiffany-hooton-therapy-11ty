@@ -1,8 +1,7 @@
-
-<ul class="flex text-right flex-col md:flex-row md:text-center">
+<ul class="flex text-right flex-col absolute top-0 right-0 pt-12 p-4 bg-pink-200 shadow-lg w-full md:flex-row md:text-center md:mt-2 md:mr-0 md:shadow-none md:bg-transparent md:static md:w-auto md:flex md:p-0" id="navContent">
   {% for link in linkList %}
-    <li class="pb-3 md:pr-3">
-      <a href="{{ link.url }}" class="hover:text-pink-900">
+    <li class="pb-4 md:pr-4">
+      <a href="{{ link.url }}">
         {{ link.text }}
       </a>
     </li>
