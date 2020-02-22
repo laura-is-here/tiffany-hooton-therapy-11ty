@@ -125,15 +125,12 @@ code {
   0% {
     right: 1000px;
     width: 500%;
-    opacity: 0;
   }
   75% {
-    opacity: 30%;
   }
   100% {
     right: 0;
     width: 220%;
-    opacity: 1;
   }
 }
 
