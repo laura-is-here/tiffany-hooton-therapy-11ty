@@ -148,8 +148,6 @@ code {
     margin-left: 100%;
     width: 0;
     white-space: nowrap;
-    opacity: 0%;
-    filter: blur(2px);
   }
 }
 
