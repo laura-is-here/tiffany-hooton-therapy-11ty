@@ -2,7 +2,7 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
   // Specify the paths to all of the template files in your project
   content: ["./src/site/**/*.njk"],
 
-  whitelist: ["md:hidden", "hidden", "slideIn", "slideOut", "z-50"],
+  whitelist: ["md:hidden", "hidden", "slideIn", "slideOut", "m-4", "z-50"],
   // Include any special characters you're using in this regular expression
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
 });
