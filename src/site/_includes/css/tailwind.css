@@ -121,21 +121,23 @@ code {
   animation-timing-function: ease-in;
 }
 
-.slideOut {
-  animation-name: slideOut;
-  animation-duration: 0.4s;
-  animation-timing-function: ease-in;
-}
-
 @keyframes slideIn {
   0% {
     right: 1000px;
     width: 500%;
+    opacity: 0;
   }
   100% {
     right: 0;
     width: 220%;
+    opacity: 1;
   }
+}
+
+.slideOut {
+  animation-name: slideOut;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in;
 }
 
 @keyframes slideOut {
@@ -143,13 +145,13 @@ code {
     margin-right: 0;
     width: 100%;
     white-space: nowrap;
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     margin-left: 100%;
     width: 0;
     white-space: nowrap;
-    opacity: 1;
+    opacity: 0;
   }
 }
 
