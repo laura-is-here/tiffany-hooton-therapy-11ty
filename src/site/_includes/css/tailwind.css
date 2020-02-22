@@ -128,7 +128,7 @@ code {
     opacity: 0;
   }
   75% {
-    opacity: 50%;
+    opacity: 30%;
   }
   100% {
     right: 0;
