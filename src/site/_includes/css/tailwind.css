@@ -119,6 +119,7 @@ code {
   animation-name: slideIn;
   animation-duration: 0.7s;
   animation-timing-function: cubic-bezier(0.55, 1.82, 0.54, 0.9);
+  animation-timing-function: ease-in;
 }
 
 .slideOut {
