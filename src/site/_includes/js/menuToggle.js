@@ -25,7 +25,7 @@ if (document) {
         }
         navContent.classList.remove("slideIn");
         navContent.classList.add("slideOut");
-        window.setTimeout(toggleNav, 500);
+        window.setTimeout(toggleNav, 400);
       });
 
       function toggleNav() {
