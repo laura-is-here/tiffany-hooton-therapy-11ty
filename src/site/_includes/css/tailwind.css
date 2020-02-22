@@ -143,11 +143,13 @@ code {
     margin-right: 0;
     width: 100%;
     white-space: nowrap;
+    opacity: 0;
   }
   100% {
     margin-left: 100%;
     width: 0;
     white-space: nowrap;
+    opacity: 1;
   }
 }
 
